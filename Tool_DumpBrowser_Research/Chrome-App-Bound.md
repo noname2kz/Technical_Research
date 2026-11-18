@@ -1,8 +1,8 @@
-## Demo
-![Demo](assets/demo.gif)
-
 # ChromElevator (Chrome App-Bound Encryption Decryption)
 Owner: https://github.com/xaitax/Chrome-App-Bound-Encryption-Decryption
+
+## Demo
+![Demo](assets/demo.gif)
 
 ## Definition
 Before: DPAPI
