@@ -25,7 +25,7 @@ How it works?
 - BootStrap() acts as a loader. It maps its own sections into memory and creates a named pipe client.
 - After collecting and decrypting the data, the DLL sends the results to the named pipe server created by the loader.
 
-## Technical Flow To Bypass AV/EDR
+## Customized Source To Bypass AV/EDR
 - Removed the need to encrypt the DLL into a separate .enc file.
 - Separated the original source code into two components: Injected.exe and ChromeInject.dll.
 - Injected.exe loads the DLL from disk into memory before injecting it into the chrome.exe process.
