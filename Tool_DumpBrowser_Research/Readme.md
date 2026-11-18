@@ -35,4 +35,4 @@ How it works?
 - Injected.exe loads the DLL from disk into memory before injecting it into the chrome.exe process.
 - Renamed functions and variables and added code obfuscation to make the source code less recognizable.
 - Removed existing signatures and customized the original code.
-- Applied IAT Hiding to reduce the number of imported functions visible in the PE Import Address Table.
+- Applied IAT Hiding to reduce the number of imported functions visible and avoid using highly signature Windows API like VirtualAlloc, VirtualAllocEx, CreateRemoteThread.
