@@ -2,7 +2,7 @@
 Owner: https://github.com/xaitax/Chrome-App-Bound-Encryption-Decryption
 
 ## Demo
-![Demo](assets/demo.gif)
+https://github.com/noname2kz/Technical_Research/blob/main/Tool_DumpBrowser_Research/assests/demo.gif
 
 ## Definition
 Before: DPAPI
