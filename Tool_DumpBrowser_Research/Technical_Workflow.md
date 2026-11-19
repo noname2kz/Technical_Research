@@ -29,6 +29,7 @@ How it works?
 - After collecting and decrypting the data, the DLL sends the results to the named pipe server created by the loader.
 
 ## Customized Source To Bypass AV/EDR
+![Screenshot 1](https://github.com/noname2kz/Technical_Research/blob/main/Tool_DumpBrowser_Research/assests/ChromeAppBound1.png)
 - Removed the need to encrypt the DLL into a separate .enc file.
 - Separated the original source code into two components: Injected.exe and ChromeInjectDll.dll.
 ![Screenshot 1](https://github.com/noname2kz/Technical_Research/blob/main/Tool_DumpBrowser_Research/assests/ChromeAppBound.png)
