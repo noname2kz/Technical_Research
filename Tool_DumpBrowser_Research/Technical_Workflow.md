@@ -33,6 +33,6 @@ How it works?
 - Separated the original source code into two components: Injected.exe and ChromeInjectDll.dll.
 ![Screenshot 1](https://github.com/noname2kz/Technical_Research/blob/main/Tool_DumpBrowser_Research/assests/ChromeAppBound.png)
 - Injected.exe loads the DLL from disk into memory before injecting it into the chrome.exe process.
-- Renamed functions and variables and added code obfuscation to make the source code less recognizable.
+- Renamed functions, variables and added code obfuscation to make the source code less recognizable.
 - Removed existing signatures and customized the original code.
-- Applied IAT Hiding to reduce the number of imported functions visible and avoid using highly signature Windows API like VirtualAlloc, VirtualAllocEx, CreateRemoteThread.
+- Applied IAT Hiding to reduce the number of imported functions visible and avoid using highly signature Windows API like VirtualAlloc, CreateRemoteThread.
